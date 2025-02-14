@@ -1,0 +1,65 @@
+a {
+    color: whitesmoke;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  }
+  a:active {
+    font-family: 'Raleway', sans-serif; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: #5495ff;
+    text-decoration: underline;
+  }
+  
+  .btn {
+    background-color: #2176FF;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn:hover {
+  transition: margin-right 2s ease-in-out;
+  background-color: #2176FF;
+  color: #ffffff;
+  border: 1px solid;
+  }
+  .btn:active {
+  transition: margin-right 2s ease-in-out;
+  background-color: #2176FF;
+  color: #ffffff;
+  border: 1px solid #2176FF;
+  }
+  
+  .activity {
+    border: 1px solid #2176FF;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .activity:hover {
+    background-color: #fff;
+    color: #2176FF;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  
+  .activity:active {
+    font-size: 40px;
+    transition: font-size .1s;
+  }
